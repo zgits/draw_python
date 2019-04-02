@@ -6,7 +6,7 @@ import jieba
 
 
 def GetWordCloud():
-    path_txt = 'test.txt'
+    path_txt = '斗破苍穹.txt'
     path_img = "a.jpg"
     f = open(path_txt, 'r', encoding='UTF-8').read()
     background_image = np.array(Image.open(path_img))
